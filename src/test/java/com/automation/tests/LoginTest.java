@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class LoginTest extends AbstractBaseTest{
 
     @Test
-    public void login()
+    public void verifyLoginUsername()
     {
         extentTest = extentReports.createTest("Verify user name");
 
